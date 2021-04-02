@@ -1,0 +1,178 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+    padding: .5in;
+}
+.navbar-brand {
+    font-family: hobeaux, sans-serif;
+    font-weight: 800;
+    font-size: 35pt;
+    font-style: normal;
+}
+.navbar-nav {
+    font-family: hobeaux, sans-serif;
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.navbar a{
+color: white !important;
+}
+/* jumbotron */
+.jumbotron{
+    background-image: url(../images/herodh.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height:calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
+}
+/* overview */
+.container{
+    padding: .5in;
+}
+.container h2{
+    font-family: hobeaux, sans-serif;
+    font-size: 27pt;
+
+}
+.container h3{
+    font-family: hobeaux, sans-serif;
+    font-size: 20pt;
+
+}
+#tool{
+    font-family: hobeaux, sans-serif;
+    font-size: 20pt;
+
+}
+/* problem */
+.containertwo{
+padding-top: .5in;
+}
+
+.containertwo h4{
+    font-family: hobeaux, sans-serif;
+    font-size: 27pt;
+}
+.containertwo h5{
+    font-family: hobeaux, sans-serif;
+    font-size: 27pt;
+}
+/* user testing */
+
+.media{
+background-color: rgb(190, 211, 255);
+padding: .2in;
+
+}
+img.resize{
+max-width:60%;
+max-height:60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.media h5{
+    display: flex;
+    justify-content: center;
+}
+.media p{
+    display: flex;
+    justify-content: center;
+}
+/* wireflow */
+
+h6{
+    font-family: hobeaux, sans-serif;
+    font-size: 27pt;
+    display: flex;
+    justify-content: center;
+}
+.wireflow p{
+    display: flex;
+    justify-content: center;
+}
+img.resizetwo{
+    max-width:90%;
+    max-height:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerthree{
+background-color: rgb(212, 233, 252)e;
+padding: .2in;
+}
+.wireflow{
+background-color: rgb(212, 233, 252)e;
+padding: .2in;
+}
+/* heuristic analysis */
+.redlinning{
+background-color:rgb(190, 211, 255);
+padding-top: .2in;
+text-align: center;
+}
+.redlinning p{
+   text-align: justify;
+   padding: .2in;
+  
+}
+img.resizethree{
+    max-width:90%;
+    max-height:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* card sorting */
+img.resizefour{
+    max-width:90%;
+    max-height:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wireflow{
+background-color: white;
+}
+.wireflowone{
+   background-color: white;
+}
+/* site map */
+.wireflowtwo{
+padding: .5in;
+}
+/* first iteration */
+.wireflowthree{
+padding-top: .5in;
+background-color:rgb(190, 211, 255);
+}
+/* current iteration */
+.wireflowfive{
+padding-top: .5in;
+background-color:rgb(190, 211, 255);
+}
+/* footer */
+.footer {
+    width: 100%;
+    background-color: rgb(0, 33, 122) !important;
+    z-index: 10;
+    padding-top: 1in;
+  }
+  footer a {
+    float: left;
+    color:white;
+    padding-left: .5in;
+    font-family: hobeaux, sans-serif;
+    font-weight: 800;
+    font-size: 35pt;
+  }
